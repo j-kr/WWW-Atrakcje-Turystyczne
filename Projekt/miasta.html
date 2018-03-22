@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<head>
+<title>Kruczkowski & Baczyński</title>
+<meta charset="iso-8859-2">
+<link rel="stylesheet" href="styles/style.css" type="text/css">
+</head>
+
+
+
+<body>
+
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1>OPOLSKIE</h1>
+      <h2>MIEJSCA WARTE ODWIEDZENIA</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">STRONA GŁÓWNA</a></li>
+        <li><a href="miasta.html">MIASTA</a></li>
+        <li><a href="atrakcje.html">ATRAKCJE</a></li>
+        <li><a href="miejsca.html">MIEJSCA</a></li>
+        <li class="last"><a href="mapa.html">MAPA</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+
+
+<div class="wrapper row2">
+  <div id="container" class="clear">
+
+
+    <div id="homepage">
+
+
+      <section id="services" class="clear">
+
+        <article class="one_third">
+          <figure><img src="images/290x180M.jpg" width="290" height="180" alt="">
+            <figcaption>
+              <h2><font color="black">Nysa</font></h2>
+              <p>Nysa to przepiękne zabytkowe miasto położone u zbiegu dwóch rzek - Nysy Kłodzkiej i Białej Gluchołaskiej. Dzięki wspaniałym zabytkom Nysa zyskała miano "Slaskiego Rzymu" badz "Slaskich Aten". Najcenniejsze zabytki historii Nyskiego miasta znajdziemy w ródmieciu. Oprócz pięknej zabytkowej architektury, atutem miasta jest piękne Jezioro Nyskie położone na terenie Otmuchowsko - Nyskiego Obszaru Chronionego Krajobrazu. Wydzielono tu plazę miejska i kapielisko a latem można przepłynac się statkiem wycieczkowym. Atrakcyjne sa również trasy rowerowe, prowadzace przez najciekawsze miejsca w Nysie. Blisko stad do pięknych, choć niezbyt wysokich okolicznych górek. </p>
+              
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="one_third">
+          <figure><img src="images/opole.jpg" width="290" height="180" alt="">
+            <figcaption>
+              <h2><font color="black">Opole</font></h2>
+              <p>Opole to stolica województwa lezaca nad Odra. Opole jest ładnym, historycznym miastem. Ciekawymi zabytkami Opola jest okazała Katedra czy też Ratusz. Warte uwagi jest również Wzgórze Uniwersyteckie, zwane Opolskim Akropolem. W Opolu miejsce ma coroczny Festiwal Piosenki Polskiej. Warto odwiedzić aby przekonać się o pięknie Opola oraz poznać ciekawe zabytki. Opole zachwyca także zielonymi, uroczymi miejscami, których tu nie brakuje. Ogród Zoologiczny jest swietna atrakcja dla wypadów rodzinnych. Warto także przejć się nad Młynówkę, by zobaczyć słynna Wenecję Opolska - rzad kolorowych kamieniczek odbijajacych się efektowanie w tafli wody. Nowa atrakcja jest od niedawna Kiosk Muzyczny, w którym można posłuchać utworów artystów, którzy maja swoje gwiazdy na pobliskiej Alei Gwiazd.</p>
+              
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="one_third lastbox">
+          <figure><img src="images/otmuchów.jpg" width="290" height="180" alt="">
+            <figcaption>
+              <h2><font color="black">Otmuchów</font></h2>
+              <p>Otmuchów to jeden z najstarszych grodów kasztelańskich na terenach Slaska, bowiem pierwsze notatki na jego temat znaleziono już z roku 1155. Dzis Otmuchów jest pięknym miastem historycznym położonym pomiędzy Paczkowem i Nysa. Jest również otoczony jest przez malowniczo rozlewajace się jeziora: Nyskie oraz Otmuchowskie. Na obszarze miasta stoi zabytkowy zamek, którym zastapiono gród położony na pobliskim wzgórzu. Przy Rynku w Otmuchowie znajduje się piękny XVII-wieczny, barokowy kociół z wysokimi wieami a tóz obok nieco starszy, bo XVI-wieczny Ratusz.</p>
+              
+            </figcaption>
+          </figure>
+        </article>
+      </section>
+
+
+
+
+
+    </div>
+
+  </div>
+</div>
+
+<div class="wrapper row3">
+  <div id="footer" class="clear">
+
+    <section class="one_quarter">
+      <h2 class="title">Autorzy:</h2>
+      <nav>
+        <ul>
+          <li><a href="https://www.facebook.com/jakub.kruczkowski.pan">Jakub Kruczkowski</a></li>
+        </ul>
+      </nav>
+    </section>
+   
+
+  </div>
+</div>
+<div id="czas"></div>
+ 
+<script type="text/javascript">
+function getTime()
+{
+    return (new Date()).toLocaleTimeString();
+}
+//wywołanie ma na celu eliminację opónienia sekundowego
+document.getElementById('czas').innerHTML = getTime();
+ 
+setInterval(function() {
+ 
+    document.getElementById('czas').innerHTML = getTime();
+     
+}, 1000);
+</script>
+</body>
+</html>

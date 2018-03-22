@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+<title>Kruczkowski & Baczyński</title>
+<meta charset="iso-8859-2">
+<link rel="stylesheet" href="styles/style.css" type="text/css">
+</head>
+
+
+
+<body>
+
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1>OPOLSKIE</h1>
+      <h2>MIEJSCA WARTE ODWIEDZENIA</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">STRONA GŁÓWNA</a></li>
+        <li><a href="miasta.html">MIASTA</a></li>
+        <li><a href="atrakcje.html">ATRAKCJE</a></li>
+        <li><a href="miejsca.html">MIEJSCA</a></li>
+        <li class="last"><a href="mapa.html">MAPA</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+
+
+<div class="wrapper row2">
+  <div id="container" class="clear">
+
+
+    <div id="homepage">
+
+   
+      <section id="services" class="clear">
+
+	<article class="one_third firstbox">
+          <figure><img src="images/jeny.jpg" width="290" height="180" alt="">
+            <figcaption>
+              <h2><font color="black">Jezioro Nyskie</font></h2>
+              <p>Sasiedni zbiornik wodny do jeziora otmuchowskiego. Oferuje możliwoć wynajęcia domku czy chociażby pola namiotowego - idealne dla turystycznych rodzin. Jezioro nyskie jest również obiektem wielu wydarzeń kulturowych, jak chociażby festiwal ognia i wody.</p>
+              
+            </figcaption>
+          </figure>
+        </article>
+
+	<article class="one_third middlebox">
+          <figure><img src="images/most.jpg" width="290" height="180" alt="">
+            <figcaption>
+              <h2><font color="black">Most wiszacy w Ozimku</font></h2>
+              <p>Most w Ozimku to najstarszy żelazny most wiszacy w Europie! W 2009 roku został gruntownie odrestaurowany. Noca można podziwiać piękne owietlenie mostu.</p>
+              
+            </figcaption>
+          </figure>
+        </article>
+
+	<article class="one_third lastbox">
+          <figure><img src="images/fort.jpg" width="290" height="180" alt="">
+            <figcaption>
+              <h2><font color="black">Fort Wodny w Nysie</font></h2>
+              <p>Fort Wodny jest ciekawa pamiatka historyczna i atrakcja turystyczna. Jest on udostępniany dla turystów oraz, ze względu na swoje ciekawe położenie jest miejscem różnych wydarzeń kulturalnych oraz pikników militarnych. W forcie istnieje również restauracja.</p>
+              
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="one_third">
+          <figure><img src="images/jeot.jpg" width="290" height="180" alt="">
+            <figcaption>
+              <h2><font color="black">Jezioro Otmuchowskie</font></h2>
+              <p>Jezioro Otmuchowskie to niezwykle atrakcyjny zbiornik rekreacyjno-wypoczynkowy, który daje możliwoć wypoczunku na plaży jak i popływania na sprzęcie wodnym (dostępnym również na miejscu), wędkowania bšd odwiedzenia restauracji znajdujšcych się przy plaży.</p>
+              
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="one_third">
+          <figure><img src="images/kopa.jpg" width="290" height="180" alt="">
+            <figcaption>
+              <h2><font color="black">Kopa Biskupia</font></h2>
+              <p>Najwyższe wzniesienie opolszczyzny i Gór Opawskich. Przez szczyt przebiega granica polsko-czeska. Szczyt ma wysokoć 889 m n.p.m. i zajmuje 23 miejsce w Koronie Gór Polskich. Na szczycie góry znajduje się wieża widokowa wzniesiona pod koniec XIX w.  </p>
+             
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="one_third lastbox">
+          <figure><img src="images/muzeum.jpg" width="290" height="180" alt="">
+            <figcaption>
+              <h2><font color="black">Muzeum Wsi Opolskiej</font></h2>
+              <p>Muzeum Wsi Opolskiej jest ciekawym Skansenem tuż za Opolem. Można tam obejrzeć około 50 zabytków drewnianego budownictwa wiejskiego. Sielankowa sceneria jest idealna do spacerów i wypoczynku w rodzinnym gronie.</p>
+              
+            </figcaption>
+          </figure>
+        </article>
+	
+      </section>
+
+
+
+
+
+    </div>
+
+  </div>
+</div>
+
+<div class="wrapper row3">
+  <div id="footer" class="clear">
+ 
+    <section class="one_quarter">
+      <h2 class="title">Autorzy:</h2>
+      <nav>
+        <ul>
+          <li><a href="https://www.facebook.com/jakub.kruczkowski.pan">Jakub Kruczkowski</a></li>
+        </ul>
+      </nav>
+    </section>
+   
+
+  </div>
+</div>
+<div id="czas"></div>
+ 
+<script type="text/javascript">
+function getTime()
+{
+    return (new Date()).toLocaleTimeString();
+}
+//wywołanie ma na celu eliminację opónienia sekundowego
+document.getElementById('czas').innerHTML = getTime();
+ 
+setInterval(function() {
+ 
+    document.getElementById('czas').innerHTML = getTime();
+     
+}, 1000);
+</script>
+</body>
+</html>

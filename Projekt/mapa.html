@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+<title>Kruczkowski & Baczyński</title>
+<meta charset="iso-8859-2">
+<link rel="stylesheet" href="styles/style.css" type="text/css">
+</head>
+
+
+
+<body>
+
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1>OPOLSKIE</h1>
+      <h2>MIEJSCA WARTE ODWIEDZENIA</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">STRONA GŁÓWNA</a></li>
+        <li><a href="miasta.html">MIASTA</a></li>
+        <li><a href="atrakcje.html">ATRAKCJE</a></li>
+        <li><a href="miejsca.html">MIEJSCA</a></li>
+        <li class="last"><a href="mapa.html">MAPA</a></li>
+      </ul>
+    </nav>
+  </header>
+<div class="wrapper row2";">
+<div id="container" class="clear" style="padding-left:10cm; >
+
+    <section id="slider"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d768813.0285571013!2d17.6222099245271!3d50.73181446416964!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711adf48563d0f1%3A0x1017cadc5e4c090!2sopolskie%2C+Polska!5e0!3m2!1spl!2spl!4v1452686412654" width="600" height="450" frameborder="0" style="border:0" allowfullscreen ></iframe></section>
+
+    <div id="homepage">
+
+
+</div>
+</div>
+
+<div class="wrapper row3">
+  <div id="footer" class="clear">
+
+    <section class="one_quarter">
+      <h2 class="title">Autorzy:</h2>
+      <nav>
+        <ul>
+          <li><a href="https://www.facebook.com/jakub.kruczkowski.pan">Jakub Kruczkowski</a></li>
+        </ul>
+      </nav>
+    </section>
+   
+</div>
+</div>
+<div id="czas"></div>
+ 
+<script type="text/javascript">
+function getTime()
+{
+    return (new Date()).toLocaleTimeString();
+}
+//wywołanie ma na celu eliminację opónienia sekundowego
+document.getElementById('czas').innerHTML = getTime();
+ 
+setInterval(function() {
+ 
+    document.getElementById('czas').innerHTML = getTime();
+     
+}, 1000);
+
+</script>
+
+
+
+</body>
+</html>
